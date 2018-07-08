@@ -1,0 +1,416 @@
+.banner {
+    background-color:#4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+.bio-image {
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+body {
+    background-image: url("../images/bgnoise_lg_@2X 4.30.12 PM copy.png"); 
+    margin: 0px;
+    padding-top: 0px;
+    height: 100%;
+}
+
+#contacth {
+    color: white;
+    width: 20%;
+    height: 100px;
+    background-color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    text-align: center; 
+    position: absolute;
+    margin-left: 145px;
+}
+
+#contact-info {
+    text-align: end;
+    background-color: white;
+    margin-right: 100px;
+    text-decoration: none; color: #777777;
+ } 
+
+#contactpage {
+    width: 800px;
+    padding-left: 20px;
+    color: #777777;
+    text-align: left;
+}
+
+.content {
+    min-height: 100%;
+    width: 800px;
+    padding-left: 20px;
+}
+
+.contentinside {
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+div {
+    width: 960px;
+    background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    margin: auto;
+    text-align: left;
+}
+
+#email {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 750px;
+}
+
+.footer {
+    line-height: 50px;
+    background-color: #666666;
+    text-align: center;
+    border-top: 5px solid;
+    border-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.gridcontainer {
+    display: grid;
+    height: 700px;
+    align-content: end;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-left: 25px;
+}
+
+.gridcontainer > div {
+    width: 250px;
+}
+
+h1 {
+    color: white;
+    width: 25%;
+    height: 100px;
+    background-color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 70px;
+    margin-top: 0px;
+    text-align: center;
+    position: absolute;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 200px;
+    float: center;
+    color: #4aaaa5;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+hr {
+    border-color: lightgray;
+    width: 900px;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+#message {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 750px;
+    height: 100px;
+    border-color: lightgray;
+}
+
+
+#name {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 750px;
+    align: center;
+    
+}
+
+#newhr {
+    width: 750px;
+}
+
+.photobox {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    background-size: cover;
+    display: grid;
+}
+
+.photoboxone {
+    background-image: url("../images/33rpm-audio-music-player-19951 copy.jpg");
+    display: inline-grid;
+    grid-row-start: auto
+}
+
+.photoboxtwo {
+    background-image: url("../images/blur-close-up-device-442576 copy.jpg");
+    display: inline-grid;
+}
+
+.photoboxthree {
+    background-image: url("../images/coffee-cup-earphones-163187 copy.jpg");
+    display: grid;
+}
+
+.photoboxfour {
+    background-image: url("../images/blur-cellphone-connection-983831 copy.jpg");
+    display: grid;
+}
+
+.photoboxfive {
+    background-image: url("../images/apple-gadgets-ipad-39559 copy.jpg");
+    display: grid;
+}
+
+.photoboxsix {
+    background-image: url("../images/apple-gadgets-ipad-39559 copy.jpg");
+    display: grid;
+}
+
+
+#space {
+    text-align: center;
+}
+
+#submit {
+    color: white;
+    background-color: #4aaaa5;
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.tab {
+    margin-left: 30px;
+}
+
+#text {
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+.textcolor {
+    color: #777777;
+}
+
+#top {
+    width: 100%;
+    background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100px;
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: 100px;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        width: 100%;
+    }
+
+    #contactpage {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    #newhr {
+        width: 100%;
+    }
+
+
+    #name {
+        width: 90%;
+    }
+
+    #email {
+        width: 90%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    #response {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    #contactpage {
+        width: 100%;
+    }
+
+    #name {
+        width: 85%;
+    }
+
+    #email {
+        width: 85%;
+    }
+
+    #message {
+        width: 85%;
+    }
+
+    #newhr {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    #response {
+        width: 90%;
+    }
+
+
+    hr {
+        width: 100%;
+     }
+
+     .tab {
+        display: none;
+    }
+ 
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    hr {
+       width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    #contactpage {
+        width: 100%;
+    }
+
+    h1 {
+        position: static;
+    }
+
+    #contact-info {
+        position: static;
+    }
+
+    h2 {
+        position: static;
+    }
+
+    #newhr {
+        width: 100%;
+    }
+
+    #br {
+        width: 80%;
+    }
+
+
+    #name {
+        width: 75%;
+    }
+
+    #email {
+        width: 75%;
+    }
+
+    #message {
+        width: 75%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    #response {
+        width: 100%;
+    }
+
+    .tab {
+        display: none;
+    }
+
+}
+
